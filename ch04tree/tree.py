@@ -1,4 +1,4 @@
-from linked.linked_queue import LinkedQueue
+from ch03linked.linked_queue import LinkedQueue
 import collections
 
 # 抽象数据结构
