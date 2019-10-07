@@ -1,5 +1,5 @@
-from linked.positional_list import PositionalList
-from linked.favorites_list import FavoritesList
+from ch03linked.positional_list import PositionalList
+from ch03linked.favorites_list import FavoritesList
 
 # 位置列表执行插入排序
 def insertion_sort(L):

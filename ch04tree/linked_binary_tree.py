@@ -84,7 +84,7 @@ class LinkedBinaryTree(BinaryTree):
         node._left = self._Node(e, node)
         return self._make_position(node._left)
     
-    def add_right(self, p, e):
+    def _add_right(self, p, e):
         node = self._validate(p)
         if node._right is not None:
             raise ValueError('Right child exists')
